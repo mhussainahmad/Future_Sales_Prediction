@@ -6,7 +6,7 @@ Two short Google Colab notebooks from April 2022: a linear regression that predi
 
 ### `Future_Sales_Prediction.ipynb`
 
-Predicts `Sales` from advertising spend on `TV`, `Radio` and `Newspaper` using the advertising dataset (200 rows, four numeric columns).
+Predicts `Sales` from advertising spend on `TV`, `Radio` and `Newspaper` using the advertising dataset.
 
 - Checks for missing values, plots each channel against sales with Plotly (OLS trendlines), and computes correlations with sales.
 - Trains a scikit-learn `LinearRegression` on an 80/20 train/test split (`random_state=42`).
